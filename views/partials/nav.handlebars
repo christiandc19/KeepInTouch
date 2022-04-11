@@ -1,0 +1,26 @@
+<header>
+  <nav class="navbar" role="navigation" aria-label="dropdown navigation">
+    <div class="navbar-item has-dropdown is-hoverable">
+      <a class="navbar-link pl-5 mr-5"></a>
+
+      <div class="navbar-dropdown">
+        <div>
+        {{#if loggedIn}}<a href="/dashboard">PROFILE</a>
+        </div>
+        {{/if}}
+        <div>
+        {{#if loggedIn}}<a href="/">HOME</a>
+        </div>
+        {{/if}}
+        <div>
+        <div>
+        {{#if loggedIn}}<a href="/contact/contact.html">CONTACT</a>
+        </div>
+        {{/if}}
+        </div>
+
+        <button id="logout" class="btn-no-style">logout</button>
+      </div>
+    </div>
+  </nav>
+</header>

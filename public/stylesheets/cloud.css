@@ -1,0 +1,23 @@
+
+  .file-upload-container:hover {
+      cursor: pointer;
+      background: #7258bf;
+  }
+  
+  .dash-image-container {
+justify-content: center;
+    margin: 0 0 0 30%;
+  }
+
+  #img-preview {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: 8%;
+  }
+
+  .dash-cam-icon {
+    width: 30px;
+    padding: 0%;
+    margin: 2% 0 20% 60%;
+  }
