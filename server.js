@@ -40,7 +40,7 @@ const sess = {
   })
 };
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 // Session middleware
 app.use(session(sess));
 
